@@ -24,6 +24,10 @@ body {
   pointer-events: none;
 }
 
+#map circle {
+    pointer-events: auto;
+}
+
 #map circle,
 .legend > div {
   --color-departures: steelblue;
